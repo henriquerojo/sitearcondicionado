@@ -1,0 +1,9 @@
+*
+.topo{
+   background-color: aqua; 
+}
+
+#area_inicial{
+   display: flex;
+   flex-direction: row;
+}
