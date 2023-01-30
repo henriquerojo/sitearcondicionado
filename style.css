@@ -1,9 +1,38 @@
-*
-.topo{
-   background-color: aqua; 
-}
+/* INÍCIO MENU */
 
+/* FIM MENU */
+
+/* INÍCIO ÁREA MISSÃO */
 #area_inicial{
    display: flex;
-   flex-direction: row;
+   justify-content: space-around;
 }
+.imagem{
+   width: 50%;
+   background-color: red;
+}
+
+.imagem1{
+   width: 50%;
+}
+.tamanho{
+   width: 100%;
+}
+/* FIM ÁREA MISSÃO */
+
+/* INÍCIO SERVIÇOS */
+/* FIM SERVIÇOS */
+
+/* INÍCIO SOBRE */
+/* FIM SOBRE */
+
+/* INÍCIO PRODUTOS */
+/* FIM PRODUTOS */
+
+/* INÍCIO CONTATO */
+.borda{
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+/* FIM CONTATO */

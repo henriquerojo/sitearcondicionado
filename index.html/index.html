@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ar Condicionado</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
 <body ng-app="">
+
+    <!-- INÍCIO MENU -->
     <section>
       <div class="topo"></div>
         <header>
@@ -23,29 +25,33 @@
           </nav>
         </header>
       </section>
+      <!-- INÍCIO ÁREA INICIAL -->
       <section id="area_inicial">
-        <div>
-          <img src="../img/energia_solar.png" alt="imagem com uma placa fotovoltaica e uma lampada">
+        <div class="imagem">
+          <img src="../img/energia_solar.png" alt="imagem com uma placa fotovoltaica e uma lampada" class="tamanho">
         </div>
-        <div>
+        <div class="imagem1">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab consequatur amet. Minima cupiditate ratione labore nam quas consequatur dolores sequi omnis quae id esse excepturi, quia corrupti quasi earum.</p>
           <img src="../img/linha.svg" alt="linha decorativa do texto">
         </div>
       </section>
+      <!-- FIM ÁREA INICIAL -->
+
+      <!-- FIM MENU -->
+
+      <!-- INÍCIO ÁREA MISSÃO -->
       <section id="area_missao">
         <div>
           <h1>Missão</h1>
-          <p>vai corinthians</p>
         </div>
         <div>
           <h1>Visão</h1>
-          <p>vamo timão</p>
         </div>
         <div>
           <h1>Valores</h1>
-          <p>é o coringão</p>
         </div>
       </section>
+      <!-- FIM ÁREA MISSÃO -->
       <!-- INÍCIO SERVIÇOS -->
       <section id="servicos">
         
@@ -74,17 +80,17 @@
         </div>
         <div>
           <p>
-            Nome: <input type="text" ng-model="nome" placeholder="Nome">
+            <input type="text" ng-model="nome_contato" placeholder="Nome" class="borda">
           </p>
           <p>
-            E-mail: <input type="text" ng-model="email" placeholder="E-mail">
+            <input type="text" ng-model="email" placeholder="E-mail" class="borda">
           </p>
           <p>
-            Mensagem: <input type="text" ng-model="Mensagem" placeholder="Mensagem">
+            <input type="text" ng-model="Mensagem" placeholder="Mensagem" class="borda">
           </p>
         </div>
+        <button type="submit">Enviar</button>
       </section>
       <!-- FIM ÁREA DE CONTATO -->
-
 </body>
 </html>
