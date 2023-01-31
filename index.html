@@ -68,23 +68,27 @@
         </div>
       </section>
       <!-- FIM SOBRE -->
+
       <!-- INÍCIO ÁREA DE PRODUTOS -->
       <section id="produtos">
         <!-- TITULO PRODUTOS -->
-        <h1>Produtos</h1>
+        <div id="titulo">
+          <h1>Produtos</h1>
         <!-- IMAGEM EMBAIXO DO TITULO -->
-        <div>
           <img src="../img/linha.svg" alt="linha decorativa do texto">
         </div>
+        
         <!-- BOTÕES QUE SELECIONAM IMAGENS-->
-        <form>
-          <input type="radio" ng-model="opcao" value="arcondicionado">Ar Condicionado
-          <input type="radio" ng-model="opcao" value="inverter">Ar Condicionado Inverter
-          <input type="radio" ng-model="opcao" value="multisplt">Multi Split
-          <input type="radio" ng-model="opcao" value="solar">Energia Solar
-        </form>
+        <nav class="menu alinhar">
+          <ul>
+            <input type="radio" ng-model="opcao" value="arcondicionado">Ar Condicionado
+            <input type="radio" ng-model="opcao" value="inverter">Ar Condicionado Inverter
+            <input type="radio" ng-model="opcao" value="multisplt">Multi Split
+            <input type="radio" ng-model="opcao" value="solar">Energia Solar
+          </ul>
+        </nav>
         <!-- IMAGENS -->
-        <div ng-switch="opcao">
+        <div ng-switch="opcao" class="produtos">
           <div ng-switch-when="arcondicionado">
             <img src="../img/ar1.jpg" alt="climatizador residencial">
             <img src="../img/ar2.jpg" alt="climatizador residencial">
@@ -92,21 +96,21 @@
             <img src="../img/ar4.jpg" alt="climatizador residencial">
             <img src="../img/ar5.jpg" alt="climatizador residencial">
           </div>
-          <div ng-switch-when="inverter">
+          <div ng-switch-when="inverter" class="produtos">
             <img src="../img/inverter1.jpg" alt="ar condicionado inverter">
             <img src="../img/inverter2.jpg" alt="ar condicionado inverter">
             <img src="../img/inverter3.jpg" alt="ar condicionado inverter">
             <img src="../img/inverter4.jpg" alt="ar condicionado inverter">
             <img src="../img/inverter5.jpg" alt="ar condicionado inverter">
           </div>
-          <div ng-switch-when="multisplit">
+          <div ng-switch-when="multisplit" class="produtos">
             <img src="../img/multisplit1.jpg" alt="ar condicionado multi split">
             <img src="../img/multisplit2.jpg" alt="ar condicionado multi split">
             <img src="../img/multisplit3.jpg" alt="ar condicionado multi split">
             <img src="../img/multisplit4.jpg" alt="ar condicionado multi split">
             <img src="../img/multisplit5.jpg" alt="ar condicionado multi split">
           </div>
-          <div ng-switch-when>
+          <div ng-switch-when="solar" class="produtos">
             <img src="../img/solar1.jpg" alt="placa fotovoltaica">
             <img src="../img/solar2.jpg" alt="placa fotovoltaica">
             <img src="../img/solar3.jpg" alt="placa fotovoltaica">
@@ -117,6 +121,7 @@
         
       </section>
       <!-- FIM ÁREA DE PRODUTOS -->
+
       <!-- INÍCIO ÁREA DE CONTATO -->
       <section id="contato">
         <div>

@@ -1,5 +1,21 @@
-/* INÍCIO MENU */
+/* INÍCIO USO GERAL */
+.titulo{
+   font-variant: small-caps;
+   text-align: center;
+   font-size: 50px;
+}
 
+.alinhar{
+   margin-left: 580px;
+}
+/* FIM USO GERAL */
+
+/* INÍCIO MENU */
+.menu{
+   display: inline-block;
+   margin-right: 400px;
+   font-size: x-large;
+}
 /* FIM MENU */
 
 /* INÍCIO ÁREA INICIAL */
@@ -31,6 +47,11 @@
 /* FIM SOBRE */
 
 /* INÍCIO PRODUTOS */
+#produtos{
+   display: flex;
+   justify-content: space-around;
+}
+
 /* FIM PRODUTOS */
 
 /* INÍCIO CONTATO */
