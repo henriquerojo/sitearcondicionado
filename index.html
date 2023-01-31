@@ -25,7 +25,7 @@
           </nav>
         </header>
       </section>
-
+      <!-- FIM MENU -->
 
       <!-- INÍCIO ÁREA INICIAL -->
       <section id="area_inicial"> <!-- CONTAINER -->
@@ -40,7 +40,6 @@
       <!-- FIM ÁREA INICIAL -->
 
 
-      <!-- FIM MENU -->
 
       <!-- INÍCIO ÁREA MISSÃO -->
       <section id="area_missao">
@@ -61,64 +60,64 @@
       </section>
       <!-- FIM SERVIÇOS -->
       <!-- INÍCIO SOBRE -->
-      <section id="sobre">
+      <!-- <section id="sobre">
         <div>
           <h1>Sobre Nós</h1>
           <img src="img/linha.svg" alt="linha decorativa do texto">
         </div>
         <div>
-          <!-- LOGO DA EMPRESA -->
+          LOGO DA EMPRESA
         </div>
-      </section>
+      </section> -->
       <!-- FIM SOBRE -->
 
       <!-- INÍCIO ÁREA DE PRODUTOS -->
       <section id="produtos">
         <!-- TITULO PRODUTOS -->
-        <div id="titulo">
-          <h1>Produtos</h1>
+        <div>
+          <h1 class="titulo">Produtos</h1>
         <!-- IMAGEM EMBAIXO DO TITULO -->
-          <img src="img/linha.svg" alt="linha decorativa do texto">
+          <img src="img/linha.svg" alt="linha decorativa do texto" class="linha2">
         </div>
         
         <!-- BOTÕES QUE SELECIONAM IMAGENS-->
         <nav class="menu alinhar">
           <ul>
-            <input type="radio" ng-model="opcao" value="arcondicionado">Ar Condicionado
-            <input type="radio" ng-model="opcao" value="inverter">Ar Condicionado Inverter
-            <input type="radio" ng-model="opcao" value="multisplt">Multi Split
-            <input type="radio" ng-model="opcao" value="solar">Energia Solar
+            <li><input type="radio" ng-model="opcao" value="arcondicionado">Ar Condicionado</li>
+            <li><input type="radio" ng-model="opcao" value="inverter">Ar Condicionado Inverter</li>
+            <li><input type="radio" ng-model="opcao" value="multisplit">Multi Split</li>
+            <li><input type="radio" ng-model="opcao" value="solar">Energia Solar</li>
           </ul>
         </nav>
         <!-- IMAGENS -->
         <div ng-switch="opcao" class="produtos">
-          <div ng-switch-when="arcondicionado">
-            <img src="img/ar1.jpg" alt="climatizador residencial">
-            <img src="img/ar2.jpg" alt="climatizador residencial">
-            <img src="img/ar3.jpg" alt="climatizador residencial">
-            <img src="img/ar4.jpg" alt="climatizador residencial">
-            <img src="img/ar5.jpg" alt="climatizador residencial">
+          <div ng-switch-when="arcondicionado" class="imagens">
+            <a href="ar.html"><img src="img/ar1.jpg" alt="climatizador residencial" class="imagem"></a>
+            <a href="ar.html"><img src="img/ar2.jpg" alt="climatizador residencial" class="imagem"></a>
+            <a href="ar.html"><img src="img/ar3.jpg" alt="climatizador residencial" class="imagem"></a>
+            <a href="ar.html"><img src="img/ar4.jpg" alt="climatizador residencial" class="imagem"></a>
+            <a href="ar.html"><img src="img/ar5.jpg" alt="climatizador residencial" class="imagem"></a>
           </div>
-          <div ng-switch-when="inverter" class="produtos">
-            <img src="img/inverter1.jpg" alt="ar condicionado inverter">
-            <img src="img/inverter2.jpg" alt="ar condicionado inverter">
-            <img src="img/inverter3.jpg" alt="ar condicionado inverter">
-            <img src="img/inverter4.jpg" alt="ar condicionado inverter">
-            <img src="img/inverter5.jpg" alt="ar condicionado inverter">
+          <div ng-switch-when="inverter" class="imagens">
+            <a href="ar.html"><img src="img/inverter1.jpg" alt="ar condicionado inverter" class="imagem"></a>
+            <a href="ar.html"><img src="img/inverter2.jpg" alt="ar condicionado inverter" class="imagem"></a>
+            <a href="ar.html"><img src="img/inverter3.jpg" alt="ar condicionado inverter" class="imagem"></a>
+            <a href="ar.html"><img src="img/inverter4.jpg" alt="ar condicionado inverter" class="imagem"></a>
+            <a href="ar.html"><img src="img/inverter5.jpg" alt="ar condicionado inverter" class="imagem"></a>
           </div>
-          <div ng-switch-when="multisplit" class="produtos">
-            <img src="img/multisplit1.jpg" alt="ar condicionado multi split">
-            <img src="img/multisplit2.jpg" alt="ar condicionado multi split">
-            <img src="img/multisplit3.jpg" alt="ar condicionado multi split">
-            <img src="img/multisplit4.jpg" alt="ar condicionado multi split">
-            <img src="img/multisplit5.jpg" alt="ar condicionado multi split">
+          <div ng-switch-when="multisplit" class="imagens">
+            <a href="ar.html"><img src="img/multisplit1.jpg" alt="ar condicionado multi split" class="imagem"></a>
+            <a href="ar.html"><img src="img/multisplit2.jpg" alt="ar condicionado multi split" class="imagem"></a>
+            <a href="ar.html"><img src="img/multisplit3.jpg" alt="ar condicionado multi split" class="imagem"></a>
+            <a href="ar.html"><img src="img/multisplit4.jpg" alt="ar condicionado multi split" class="imagem"></a>
+            <a href="ar.html"><img src="img/multisplit5.jpg" alt="ar condicionado multi split" class="imagem"></a>
           </div>
-          <div ng-switch-when="solar" class="produtos">
-            <img src="img/solar1.jpg" alt="placa fotovoltaica">
-            <img src="img/solar2.jpg" alt="placa fotovoltaica">
-            <img src="img/solar3.jpg" alt="placa fotovoltaica">
-            <img src="img/solar5.jpg" alt="placa fotovoltaica">
-            <img src="img/solar5.jpg" alt="placa fotovoltaica">
+          <div ng-switch-when="solar" class="imagens">
+            <a href="ar.html"><img src="img/solar1.jpg" alt="placa fotovoltaica" class="imagem"></a>
+            <a href="ar.html"><img src="img/solar2.jpg" alt="placa fotovoltaica" class="imagem"></a>
+            <a href="ar.html"><img src="img/solar3.jpg" alt="placa fotovoltaica" class="imagem"></a>
+            <a href="ar.html"><img src="img/solar5.jpg" alt="placa fotovoltaica" class="imagem"></a>
+            <a href="ar.html"><img src="img/solar5.jpg" alt="placa fotovoltaica" class="imagem"></a>
           </div>
         </div>
         

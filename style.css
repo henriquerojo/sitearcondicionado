@@ -22,6 +22,11 @@
    width: 300px;
    margin-left: 250px;
 }
+
+.linha2{
+   width: 300px;
+   margin-left: 250px;
+}
 /* FIM USO GERAL */
 
 /* INÍCIO MENU */
@@ -38,7 +43,7 @@
    justify-content: space-around;
 }
 .imagem{
-   width: 50%;
+   width: 100px;
 }
 
 .tamanho{
@@ -59,6 +64,12 @@
 
 /* INÍCIO PRODUTOS */
 #produtos{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+}
+
+.imagens{
    display: flex;
    justify-content: space-around;
 }
