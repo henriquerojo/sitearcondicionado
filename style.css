@@ -74,6 +74,10 @@
    justify-content: space-around;
 }
 
+.bolinha{
+   list-style: none;
+}
+
 /* FIM PRODUTOS */
 
 /* INÍCIO CONTATO */
