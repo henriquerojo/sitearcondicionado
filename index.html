@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
-<body ng-app="">
+<body ng-app="meuApp" ng-controller="meuController">
 
     <!-- INÍCIO MENU -->
     <section>
@@ -28,120 +28,164 @@
       <!-- FIM MENU -->
 
       <!-- INÍCIO ÁREA INICIAL -->
-      <section id="area_inicial"> <!-- CONTAINER -->
-        <div class="imagem">
-          <img src="img/energia_solar.png" alt="imagem com uma placa fotovoltaica e uma lampada" class="tamanho">
-        </div>
-        <div class="imagem1">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab consequatur amet. Minima cupiditate ratione labore nam quas consequatur dolores sequi omnis quae id esse excepturi, quia corrupti quasi earum.</p>
-          <img src="img/linha.svg" alt="linha decorativa do texto">
-        </div>
-      </section> <!-- CONTAINER -->
       <!-- FIM ÁREA INICIAL -->
 
 
 
       <!-- INÍCIO ÁREA MISSÃO -->
-      <section id="area_missao">
-        <div>
-          <h1>Missão</h1>
-        </div>
-        <div>
-          <h1>Visão</h1>
-        </div>
-        <div>
-          <h1>Valores</h1>
-        </div>
-      </section>
+      
       <!-- FIM ÁREA MISSÃO -->
       <!-- INÍCIO SERVIÇOS -->
-      <section id="servicos">
-        
-      </section>
+      <h1 class="alinhar">Serviços</h1>
+      <div class="alinhar">
+        <img src="img/linha.svg" alt="linha decorativa do texto" class="linhad">
+      </div>
       <!-- FIM SERVIÇOS -->
       <!-- INÍCIO SOBRE -->
-      <!-- <section id="sobre">
-        <div>
-          <h1>Sobre Nós</h1>
-          <img src="img/linha.svg" alt="linha decorativa do texto">
-        </div>
-        <div>
-          LOGO DA EMPRESA
-        </div>
-      </section> -->
+      <h1 class="alinhar">Sobre Nós</h1>
+      <div class="alinhar">
+        <img src="img/linha.svg" alt="linha decorativa do texto" class="linhad">
+      </div>
       <!-- FIM SOBRE -->
 
       <!-- INÍCIO ÁREA DE PRODUTOS -->
-      <section id="produtos">
-        <!-- TITULO PRODUTOS -->
+      <h1 class="alinhar">Produtos</h1>
+      <div class="alinhar">
+        <img src="img/linha.svg" alt="linha decorativa do texto" class="linhad">
+      </div>
+
+      <div class="linha w50"> <!-- BOTÕES -->
+        <div ng-mouseover="funcaoArcondicionado()" class="borda">
+          Ar Condicionado
+        </div>
+        <div ng-mouseover="funcaoInverter()" class="borda">
+          Ar Condicionado Inverter 
+        </div>
+        <div ng-mouseover="funcaoMultisplit()" class="borda">
+          Multi Split
+        </div>
+        <div ng-mouseover="funcaoEnergiasolar()" class="borda">
+          Energia Solar
+        </div>  
+      </div>
+      <div class="linha w100" ng-show="arcondicionado" class="alinhamento_imagens"> <!-- IMAGENS -->
         <div>
-          <h1 class="titulo">Produtos</h1>
-        <!-- IMAGEM EMBAIXO DO TITULO -->
-          <img src="img/linha.svg" alt="linha decorativa do texto" class="linha2">
+          <img src="img/ar1.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem">
         </div>
-        
-        <!-- BOTÕES QUE SELECIONAM IMAGENS-->
-        <nav class="menu alinhar">
-          <ul class="bolinha">
-            <li><input type="radio" ng-model="opcao" value="arcondicionado">Ar Condicionado</li>
-            <li><input type="radio" ng-model="opcao" value="inverter">Ar Condicionado Inverter</li>
-            <li><input type="radio" ng-model="opcao" value="multisplit">Multi Split</li>
-            <li><input type="radio" ng-model="opcao" value="solar">Energia Solar</li>
-          </ul>
-        </nav>
-        <!-- IMAGENS -->
-        <div ng-switch="opcao" class="produtos">
-          <div ng-switch-when="arcondicionado" class="imagens">
-            <a href="ar.html"><img src="img/ar1.jpg" alt="climatizador residencial" class="imagem"></a>
-            <a href="ar.html"><img src="img/ar2.jpg" alt="climatizador residencial" class="imagem"></a>
-            <a href="ar.html"><img src="img/ar3.jpg" alt="climatizador residencial" class="imagem"></a>
-            <a href="ar.html"><img src="img/ar4.jpg" alt="climatizador residencial" class="imagem"></a>
-            <a href="ar.html"><img src="img/ar5.jpg" alt="climatizador residencial" class="imagem"></a>
-          </div>
-          <div ng-switch-when="inverter" class="imagens">
-            <a href="ar.html"><img src="img/inverter1.jpg" alt="ar condicionado inverter" class="imagem"></a>
-            <a href="ar.html"><img src="img/inverter2.jpg" alt="ar condicionado inverter" class="imagem"></a>
-            <a href="ar.html"><img src="img/inverter3.jpg" alt="ar condicionado inverter" class="imagem"></a>
-            <a href="ar.html"><img src="img/inverter4.jpg" alt="ar condicionado inverter" class="imagem"></a>
-            <a href="ar.html"><img src="img/inverter5.jpg" alt="ar condicionado inverter" class="imagem"></a>
-          </div>
-          <div ng-switch-when="multisplit" class="imagens">
-            <a href="ar.html"><img src="img/multisplit1.jpg" alt="ar condicionado multi split" class="imagem"></a>
-            <a href="ar.html"><img src="img/multisplit2.jpg" alt="ar condicionado multi split" class="imagem"></a>
-            <a href="ar.html"><img src="img/multisplit3.jpg" alt="ar condicionado multi split" class="imagem"></a>
-            <a href="ar.html"><img src="img/multisplit4.jpg" alt="ar condicionado multi split" class="imagem"></a>
-            <a href="ar.html"><img src="img/multisplit5.jpg" alt="ar condicionado multi split" class="imagem"></a>
-          </div>
-          <div ng-switch-when="solar" class="imagens">
-            <a href="ar.html"><img src="img/solar1.jpg" alt="placa fotovoltaica" class="imagem"></a>
-            <a href="ar.html"><img src="img/solar2.jpg" alt="placa fotovoltaica" class="imagem"></a>
-            <a href="ar.html"><img src="img/solar3.jpg" alt="placa fotovoltaica" class="imagem"></a>
-            <a href="ar.html"><img src="img/solar5.jpg" alt="placa fotovoltaica" class="imagem"></a>
-            <a href="ar.html"><img src="img/solar5.jpg" alt="placa fotovoltaica" class="imagem"></a>
-          </div>
+        <div>
+          <img src="img/ar2.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem">
         </div>
-        
-      </section>
+        <div>
+          <img src="img/ar3.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/ar4.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/ar5.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem">
+        </div>
+      </div>
+
+
+      <div class="linha w100" ng-show="inverter" class="alinhamento_imagens">
+        <div>
+          <img src="img/inverter1.jpg" alt="ar-condicionado inverter" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/inverter2.jpg" alt="ar-condicionado inverter" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/inverter3.jpg" alt="ar-condicionado inverter" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/inverter4.jpg" alt="ar-condicionado inverter" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/inverter5.jpg" alt="ar-condicionado inverter" class="tamanho_imagem">
+        </div>
+      </div>
+
+      <div class="linha w100" ng-show="multisplit" class="alinhar2">
+        <div>
+          <img src="img/multisplit1.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/multisplit2.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/multisplit3.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/multisplit4.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/multisplit5.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem">
+        </div>
+      </div>
+
+      <div class="linha w100" ng-show="energiasolar" class="alinhar2">
+        <div>
+          <img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem">
+        </div>
+        <div>
+          <img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem">
+        </div>
+      </div>
+
+      <script>
+        var app = angular.module('meuApp', []);
+        app.controller('meuController', function($scope) {
+          $scope.arcondicionado = true;
+          $scope.inverter = false;
+          $scope.multisplit = false;
+          $scope.energiasolar = false;
+
+          $scope.funcaoArcondicionado = function() {
+            $scope.arcondicionado = true;
+            $scope.inverter = false;
+            $scope.multisplit = false;
+            $scope.energiasolar = false;
+          }
+
+          $scope.funcaoInverter = function() {
+            $scope.arcondicionado = false;
+            $scope.inverter = true;
+            $scope.multisplit = false;
+            $scope.energiasolar = false;
+          }
+
+          $scope.funcaoMultisplit = function() {
+            $scope.arcondicionado = false;
+            $scope.inverter = false;
+            $scope.multisplit = true;
+            $scope.energiasolar = false;
+          }
+
+          $scope.funcaoEnergiasolar = function() {
+            $scope.arcondicionado = false;
+            $scope.inverter = false;
+            $scope.multisplit = false;
+            $scope.energiasolar = true;
+          }
+        });
+      </script>
       <!-- FIM ÁREA DE PRODUTOS -->
 
       <!-- INÍCIO ÁREA DE CONTATO -->
-      <section id="contato">
-        <div>
-          <img src="img/ar_condicionado.png" alt="imagem ar condicionado">
-        </div>
-        <div>
-          <p>
-            <input type="text" ng-model="nome_contato" placeholder="Nome" class="borda">
-          </p>
-          <p>
-            <input type="text" ng-model="email" placeholder="E-mail" class="borda">
-          </p>
-          <p>
-            <input type="text" ng-model="Mensagem" placeholder="Mensagem" class="borda">
-          </p>
-        </div>
-        <button type="submit">Enviar</button>
-      </section>
+      <h1 class="alinhar">Contato</h1>
+      <div class="alinhar">
+        <img src="img/linha.svg" alt="linha decorativa do texto" class="linhad">
+      </div>
       <!-- FIM ÁREA DE CONTATO -->
+
 </body>
 </html>
