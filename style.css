@@ -24,12 +24,60 @@
 
 /* INÍCIO ÁREA MISSÃO */
 
+.fundo_amarelo{
+   background-color: yellow;
+}
+
+.medalha{
+   width: 20%;
+}
+
 /* FIM ÁREA MISSÃO */
 
 /* INÍCIO SERVIÇOS */
+.alinharserv{
+   display: flex;
+   justify-content: center;
+}
+.quadrado{
+   background-color: green;
+   padding: 85px auto;
+}
+.quadradoa{
+   background-color: blueviolet;
+   padding: 85px auto;
+}
+
+.margembaixo{
+   margin-bottom: 20px;
+}
 /* FIM SERVIÇOS */
 
 /* INÍCIO SOBRE */
+
+.linhadsobre{
+   width: 80%;
+   margin-top: -20px;
+}
+
+#sobre{
+   width: 30%;
+}
+
+.margemcima{
+   margin-top: 0;
+}
+
+.fundocinza{
+   background-color: gray;
+   padding-bottom: 50px;
+}
+
+.teste{
+   background-color: red;
+   width: 30%;
+   margin-top: 50px;
+}
 
 /* FIM SOBRE */
 
@@ -59,6 +107,9 @@
    border-style: solid;
    border-width: 1px;
    padding: 5px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
 }
 
 /* inicio imagens produtos */
