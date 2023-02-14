@@ -129,6 +129,23 @@
 /* FIM PRODUTOS */
 
 /* INÍCIO CONTATO */
+#contato{
+   display: flex;
+   justify-content: space-around;
+}
+
+.linhadcontato{
+   width: 40%;
+}
+
+#imagem_contato{
+   width: 50%;
+}
+
+.imagem_contato{
+   width: 100%;
+}
+
 .borda{
    border-top: none;
    border-left: none;
