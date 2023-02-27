@@ -10,7 +10,11 @@
 }
 
 body{
-   cursor: url(img/cursorum.cur), pointer;
+   cursor: url(img/cursorum.cur), default;
+}
+
+body a{
+   cursor: url(img/cursordois.cur), pointer;
 }
 /* FIM USO GERAL */
 
