@@ -8,6 +8,10 @@
 .linhad{
    width: 20%;
 }
+
+body{
+   cursor: url(img/cursorum.cur), pointer;
+}
 /* FIM USO GERAL */
 
 /* INÍCIO MENU */
