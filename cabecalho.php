@@ -1,13 +1,10 @@
-<div class="topo">
-  <img src="" alt="logo" class="logo">
-  <nav class="navigation">
+<nav>
   <ul>
-      <li><a href="index.html#home"Home>Home</a></li>
-      <li><a href="index.html#servicos"Serviços>Serviços</a></li>
-      <li><a href="index.html#sobre"Sobre nós>Sobre</a></li>
-      <li><a href="index.html#produtos"Produtos>Produtos</a></li>
-      <li><a href="index.html#contato"Contato>Contato</a></li> 
-      </ul>
-  </nav>
-</div>
-  
+    <img src="" alt="logo da empresa">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Produtos</a></li>
+    <li><a href="#">Missão</a></li>
+    <li><a href="#">Links</a></li>
+    <li><a href="#">Contato</a></li>
+  </ul> 
+</nav>

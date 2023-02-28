@@ -18,12 +18,40 @@ body a{
 }
 /* FIM USO GERAL */
 
-/* INÍCIO MENU */
-.menu{
-   display: inline-block;
-   margin-right: 400px;
-   font-size: x-large;
+/* INÍCIO LOGO */
+.logocentro{
+   display: flex;
+   justify-content: center;
 }
+/* FIM LOGO */
+
+/* INÍCIO MENU */
+#menu{
+   width: 100%;
+}
+#menu ul{
+   padding: 0px;
+   margin: 0px;
+   margin-bottom: 40px;
+   background-color: aquamarine;
+   list-style: none;
+}
+#menu ul li{
+   display: inline;
+}
+#menu ul li a{
+   padding: 2px 10px;
+   display: inline-block;
+   background-color: aquamarine;
+   color: black;
+   text-decoration: none;
+   border-bottom: 3px solid;
+}
+#menu ul li a:hover { 
+   background-color:#D6D6D6;
+   color: #6D6D6D;
+   border-bottom:3px solid #EA0000;
+ }
 /* FIM MENU */
 
 /* INÍCIO ÁREA INICIAL */
