@@ -107,8 +107,16 @@ body a{
    display: grid;
    grid-template-columns: auto auto auto auto auto auto;
    padding: 10px;
-   margin-left: 90px;
+   margin-left: 50px;
    margin-top: 10px;
+}
+#grid div img{
+   width: 200px;
+}
+
+#grid div p{
+   text-align: center;
+   font-size: 15px;
 }
 /* FIM SERVIÇOS */
 
