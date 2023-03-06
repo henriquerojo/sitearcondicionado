@@ -57,7 +57,17 @@ body a{
 /* FIM MENU */
 
 /* INÍCIO ÁREA INICIAL */
+#area_inicial{
+   display: flex;
+}
 
+#area_inicial div{
+   width: 50%;
+   display: inline-block;
+}
+#imagem_ar{
+   width: 100%;
+}
 /* FIM ÁREA INICIAL */
 
 /* INÍCIO ÁREA MISSÃO */
@@ -151,10 +161,6 @@ body a{
 }
 
 /* inicio imagens produtos */
-.alinhar2{
-   display: flex;
-   justify-content: space-around;
-}
 
 .tamanho_imagem{
    width: 50%;

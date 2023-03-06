@@ -28,7 +28,7 @@
             texto
           </div>
         </div>
-        <div class="alinharserv margembaixo">
+        <div class="alinhar serv margembaixo">
           <div class="quadrado">
             imagem
           </div>

@@ -54,7 +54,7 @@
           </div>
         </div>
 
-        <div class="linha w100" ng-show="multisplit" class="alinhar2">
+        <div class="linha w100" ng-show="multisplit" class="alinhar">
           <div>
             <img src="img/multisplit1.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem">
           </div>
@@ -72,7 +72,7 @@
           </div>
         </div>
 
-        <div class="linha w100" ng-show="energiasolar" class="alinhar2">
+        <div class="linha w100" ng-show="energiasolar" class="alinhar">
           <div>
             <img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem">
           </div>
