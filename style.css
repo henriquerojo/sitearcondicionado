@@ -93,6 +93,16 @@ body a{
 /* FIM ÁREA MISSÃO */
 
 /* INÍCIO SERVIÇOS */
+#texto_serv{
+   text-align: center;
+   position: relative;
+   font-size: 30px;
+}
+
+#linha_serv{
+   width: 100%;
+}
+
 .alinharserv{
    display: flex;
    justify-content: center;
