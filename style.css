@@ -114,27 +114,27 @@ body a{
 /* INÍCIO SOBRE */
 
 .linhadsobre{
-   width: 80%;
+   width: 20%;
    margin-top: -20px;
 }
 
 #sobre{
-   width: 30%;
+   display: flex;
 }
 
-.margemcima{
-   margin-top: 0;
+#sobre div{
+   display: inline-block;
+   width: 50%;
 }
 
 .fundocinza{
-   background-color: gray;
+   background-color: rgb(223, 198, 198);
    padding-bottom: 50px;
 }
 
-.teste{
-   background-color: red;
-   width: 30%;
-   margin-top: 50px;
+#logo_sobre{
+   margin-left: 30%;
+   width: 35%;
 }
 
 /* FIM SOBRE */

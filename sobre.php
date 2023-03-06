@@ -1,14 +1,14 @@
-<div class="alinhar2 fundocinza">
-          <div id="sobre">
-            <h1 class="alinhar">Sobre Nós</h1>
-          <div class="alinhar margemcima">
-            <img src="img/linha.svg" alt="linha decorativa do texto" class="linhadsobre">
-          </div>
+<section class="fundocinza" id="sobre">
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nam aliquid omnis? Nihil possimus nisi magnam reiciendis. Adipisci dignissimos quod accusantium explicabo porro vero, neque deleniti voluptate at reiciendis quisquam?
+              <h1 class="">Sobre Nós</h1>
+              <section class="">
+                <img src="img/linha.svg" alt="linha decorativa do texto" class="linhadsobre">
+              </section>
+              <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptates pariatur harum dignissimos aperiam similique quis cupiditate eos ad! Atque eveniet ratione earum quos, odit provident repellendus quisquam. Quam, ex?
+              </p>
           </div>
+          <div> <!-- LOGO DA EMPRESA -->
+            <img src="img/logo2.png" alt="logo da empresa de ar condicionado" id="logo_sobre" >
           </div>
-          <div class="teste"> <!-- LOGO DA EMPRESA -->
-            
-          </div>
-</div>
+</section>
