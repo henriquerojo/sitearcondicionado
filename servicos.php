@@ -16,12 +16,18 @@
       </div>
     </article>
     
-    <div class="grid">
+    <div id="grid">
       <div>
-        <img src="" alt="">
+        <img src="img/serviços/InstalandoPainelSolar.jpg" alt="instalando painel solar">
       </div>
       <div>
-        
+        <h3>Instalação de painel solar</h3>
+      </div>
+      <div>
+        <img src="img/serviços/InstalandoArCond.jpg" alt="instalando ar condicionado">
+      </div>
+      <div>
+        <h3>Instalação de ar condicionado</h3>
       </div>
     </div>
   </section>

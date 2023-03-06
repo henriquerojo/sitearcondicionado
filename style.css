@@ -103,21 +103,12 @@ body a{
    width: 100%;
 }
 
-.alinharserv{
-   display: flex;
-   justify-content: center;
-}
-.quadrado{
-   background-color: green;
-   padding: 85px auto;
-}
-.quadradoa{
-   background-color: blueviolet;
-   padding: 85px auto;
-}
-
-.margembaixo{
-   margin-bottom: 20px;
+#grid{
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto;
+   padding: 10px;
+   margin-left: 90px;
+   margin-top: 10px;
 }
 /* FIM SERVIÇOS */
 
