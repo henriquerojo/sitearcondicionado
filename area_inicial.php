@@ -11,9 +11,8 @@
             <img src="img/ar_condicionado.png" alt="imagem de ar condicionado" id="imagem_ar">
         </div>
         <div>
-            <img src="img/linha.svg" alt="linha decorativa do texto" class="linhad">
-            <!-- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium suscipit optio omnis, sed enim saepe nulla veritatis et amet expedita ad beatae dolorum praesentium sit voluptate totam vel sequi nam! -->
-        </div>
+            <p class="alinhar_meio">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <img src="img/linha.svg" alt="linha decorativa do texto" class="linhad_areainicial">
     </section>
 </body>
 </html>

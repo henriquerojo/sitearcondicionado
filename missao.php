@@ -7,11 +7,11 @@
           <div>
             <img src="img/medalhinha.jpg" alt="" class="medalha">
             <h4>Visão</h4>
-            <p>Nossa missão é bla bla bla</p>
+            <p>Nossa visão é bla bla bla</p>
           </div>
           <div>
             <img src="img/medalhinha.jpg" alt="" class="medalha">
             <h4>Valores</h4>
-            <p>Nossa missão é bla bla bla</p>
+            <p>Nossos valores são bla bla bla</p>
           </div>
 </div>

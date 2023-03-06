@@ -18,6 +18,7 @@
 
 body{
    cursor: url(img/cursorum.cur), default;
+   background-color: #a4d1c6;
 }
 
 body a{
@@ -59,6 +60,7 @@ body a{
 /* INÍCIO ÁREA INICIAL */
 #area_inicial{
    display: flex;
+   margin-top: 1%;
 }
 
 #area_inicial div{
@@ -68,12 +70,20 @@ body a{
 #imagem_ar{
    width: 100%;
 }
+.alinhar_meio{
+   margin-left: 30%;
+}
+.linhad_areainicial{
+   width: 35%;
+   margin-left: 35%;
+}
 /* FIM ÁREA INICIAL */
 
 /* INÍCIO ÁREA MISSÃO */
 
 .fundo_amarelo{
    background-color: yellow;
+   margin-top: 1%;
 }
 
 .medalha{
