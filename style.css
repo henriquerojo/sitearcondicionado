@@ -1,3 +1,10 @@
+/* INÍCIO RESET  */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* FIM RESET */
 /* INÍCIO USO GERAL */
 .alinhar{
    display: flex;
@@ -18,28 +25,34 @@ body a{
 }
 /* FIM USO GERAL */
 
-/* INÍCIO LOGO */
-.logocentro{
-   display: flex;
-   justify-content: center;
-}
-/* FIM LOGO */
 
 /* INÍCIO MENU */
-.area_cabecalho{
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
+#menu_horizontal{
+   max-width: 100%;
 }
-.w50{
-   width: 50%;
+
+#menu_horizontal ul{
+   list-style: none;
+   padding: 0;
+   background-color: #252330;
 }
+#menu_horizontal ul li {
+   display: inline;
+   margin-left: 7%;
+}
+#menu_horizontal ul li a {
+   color: #fff;
+   display: inline-block;
+   padding: 30px;
+   text-decoration: none;
+   transition: background .3s;
+}
+#menu_horizontal ul li a:hover{
+   background-color: #4bbce9;
+}
+
 #logo{
-   display: flex;
-   align-items: start;
-}
-.imagem{
-   width: 10%;
+   width: 15%;
 }
 /* FIM MENU */
 
