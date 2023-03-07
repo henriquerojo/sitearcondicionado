@@ -200,6 +200,7 @@ body a{
    border-top: none;
    border-left: none;
    border-right: none;
+   cursor: url(img/cursordois.cur), pointer;
 }
 
 /* inicio imagens produtos */
@@ -240,7 +241,7 @@ body a{
    margin-left: 18%;
 }
 
-.borda{
+.borda_c{
    border-top: none;
    border-left: none;
    border-right: none;
@@ -249,7 +250,7 @@ body a{
    padding: 10px;
 }
 .mt{
-   margin-top: 10px;
+   margin-top: 20px;
 }
 
 .ml{
@@ -262,5 +263,17 @@ body a{
 #forma_contato div{
    display: inline;
    margin-right: 30px;
+}
+#button{
+   margin-left: 19%;
+   margin-top: 20px;
+   padding: 10px;
+   background-color: transparent;
+   border: solid 1px black;
+   transition: 0.3s;
+}
+#button:hover{
+   background-color: #4bbce9;
+   cursor: url(img/cursordois.cur), pointer
 }
 /* FIM CONTATO */

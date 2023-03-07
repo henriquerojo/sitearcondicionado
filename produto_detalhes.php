@@ -17,8 +17,17 @@ $num_linhas = $lista->num_rows;
 <body>
     <!-- INCLUSÃO MENU PÚBLICO -->
     <?php include 'cabecalho.php'?>
+    <div>
+        <h1><?php echo $row['nome'];?></h1>
+    </div>
     <div id="">
         <img src="img/<?php echo $row['imagem']; ?>" alt="imagem de ar condicionado">
+    </div>
+    <div>
+        <p><?php echo $row['descricao'];?></p>
+    </div>
+    <div>
+        <p><?php echo $row['preco'];?></p>
     </div>
 
     
