@@ -27,56 +27,56 @@
         </div>
         <div class="linha w100" ng-show="arcondicionado" class="alinhamento_imagens"> <!-- IMAGENS -->
           <div>
-            <img src="img/ar1.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/ar1.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/ar2.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/ar2.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/ar3.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/ar3.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/ar4.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/ar4.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/ar5.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/ar5.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem"></a>
           </div>
         </div>
 
 
         <div class="linha w100" ng-show="inverter" class="alinhamento_imagens">
           <div>
-            <img src="img/inverter1.jpg" alt="ar-condicionado inverter" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/inverter1.jpg" alt="ar-condicionado inverter" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/inverter2.jpg" alt="ar-condicionado inverter" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/inverter2.jpg" alt="ar-condicionado inverter" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/inverter3.jpg" alt="ar-condicionado inverter" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/inverter3.jpg" alt="ar-condicionado inverter" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/inverter4.jpg" alt="ar-condicionado inverter" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/inverter4.jpg" alt="ar-condicionado inverter" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/inverter5.jpg" alt="ar-condicionado inverter" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/inverter5.jpg" alt="ar-condicionado inverter" class="tamanho_imagem"></a>
           </div>
         </div>
 
         <div class="linha w100" ng-show="multisplit" class="alinhar">
           <div>
-            <img src="img/multisplit1.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/multisplit1.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/multisplit2.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/multisplit2.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/multisplit3.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/multisplit3.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/multisplit4.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/multisplit4.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/multisplit5.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/multisplit5.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
           </div>
         </div>
 
@@ -85,16 +85,16 @@
             <a href="produto_detalhes.php"><img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem"></a>
           </div>
           <div>
-            <img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem"></a>
           </div>
         </div>
 
