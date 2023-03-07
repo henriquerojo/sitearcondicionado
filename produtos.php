@@ -82,7 +82,7 @@
 
         <div class="linha w100" ng-show="energiasolar" class="alinhar">
           <div>
-            <img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem">
+            <a href="produto_detalhes.php"><img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem"></a>
           </div>
           <div>
             <img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem">
