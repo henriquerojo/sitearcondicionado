@@ -208,19 +208,27 @@ body a{
 /* INÍCIO CONTATO */
 #contato{
    display: flex;
-   justify-content: space-around;
+   background-color: #9ebedd;
 }
-
-.linhadcontato{
-   width: 40%;
-}
-
 #imagem_contato{
    width: 50%;
+   display: inline-block;
 }
-
 .imagem_contato{
    width: 100%;
+}
+#contato article{
+   width: 50%;
+   display: inline-block;
+}
+#contato article p{
+   font-size: 30px;
+   font-style:inherit;
+   margin-left: 30%;
+}
+.linhadcontato{
+   width: 40%;
+   margin-left: 18%;
 }
 
 .borda{
