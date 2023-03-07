@@ -1,3 +1,5 @@
+DROP DATABASE dbar;
+
 CREATE DATABASE dbar;
 
 show databases;
