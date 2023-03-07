@@ -188,6 +188,10 @@ body a{
    margin: 20px auto;
 }
 
+.borda{
+   padding: 10px;
+}
+
 .borda:hover{
    border-color: black;
    border-style: solid;

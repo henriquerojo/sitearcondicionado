@@ -1,8 +1,8 @@
-CREATE DATABASE dbbar;
+CREATE DATABASE dbar;
 
 show databases;
 
-USE dbbar;
+USE dbar;
 
 create table tbtipos(
 id int not null auto_increment,

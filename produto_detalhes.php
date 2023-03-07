@@ -1,13 +1,10 @@
 <?php 
 include 'conn/connect.php';
 $id = $_GET['id'];
-$lista = $conn->query("select * from tbprodutos where imagem like $id;");
-$row_produto = $lista->fetch_assoc();
+$lista = $conn->query("select * from tbprodutos where id like $id;");
+$row = $lista->fetch_assoc();
 $num_linhas = $lista->num_rows;
-$ar = $conn->query("SELECT * FROM tbprodutos WHERE id_tipo = 1 ORDER BY id;");
-$inverter = $conn->query("SELECT * FROM tbprodutos WHERE id_tipo = 2 ORDER BY id;");
-$multi = $conn->query("SELECT * FROM tbprodutos WHERE id_tipo = 3 ORDER BY id;");
-$solar = $conn->query("SELECT * FROM tbprodutos WHERE id_tipo = 4 ORDER BY id;");
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -18,6 +15,12 @@ $solar = $conn->query("SELECT * FROM tbprodutos WHERE id_tipo = 4 ORDER BY id;")
     <title>Detalhes - Produto</title>
 </head>
 <body>
+    <!-- INCLUSÃO MENU PÚBLICO -->
+    <?php include 'cabecalho.php'?>
+
     <img src="img/<?php echo $row['imagem']; ?>" alt="imagem de ar condicionado">
+
+    <!-- INCLUSÃO CONTATO -->
+    <?php include 'rodape.php'?>
 </body>
 </html>

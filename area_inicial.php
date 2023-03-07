@@ -8,7 +8,7 @@
 <body>
     <section id="area_inicial">
         <div>
-            <img src="img/ar_condicionado.png" alt="imagem de ar condicionado" id="imagem_ar">
+            <img src="img/energia_solar.png" alt="imagem de ar condicionado" id="imagem_ar">
         </div>
         <div>
             <p class="alinhar_meio">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
