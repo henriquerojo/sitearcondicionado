@@ -73,7 +73,7 @@
             <a href="produto_detalhes.php"><img src="img/multisplit3.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
           </div>
           <div>
-            <a href="produto_detalhes.php"><img src="img/multisplit4.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem" name="buscar"></a>
+            <a href="produto_detalhes.php"><img src="img/multisplit4.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
           </div>
           <div>
             <a href="produto_detalhes.php"><img src="img/multisplit5.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
