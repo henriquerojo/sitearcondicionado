@@ -18,7 +18,7 @@
 
 body{
    cursor: url(img/cursorum.cur), default;
-   background-color: #a4d1c6;
+   background-color: #fff;
 }
 
 body a{
@@ -40,6 +40,7 @@ body a{
 #menu_horizontal ul li {
    display: inline;
    margin-left: 7%;
+   margin-top: 30%;
 }
 #menu_horizontal ul li a {
    color: #fff;
@@ -53,7 +54,7 @@ body a{
 }
 
 #logo{
-   width: 15%;
+   width: 5%;
 }
 /* FIM MENU */
 
@@ -82,8 +83,11 @@ body a{
 /* INÍCIO ÁREA MISSÃO */
 
 .fundo_amarelo{
-   background-color: #a3e8f5;
+   background-color: rgb(235, 235, 2);
    margin-top: 1%;
+   margin-bottom: 1%;
+   padding-top: 2.5%;
+   padding-bottom: 5%;
 }
 
 .medalha{
@@ -151,7 +155,7 @@ body a{
 }
 
 .fundocinza{
-   background-color: #a3e8f5;
+   background-color: rgb(228, 219, 219);
    padding-bottom: 50px;
 }
 
@@ -197,9 +201,6 @@ body a{
    border-style: solid;
    border-width: 3px;
    padding: 5px;
-   border-top: none;
-   border-left: none;
-   border-right: none;
    cursor: url(img/cursordois.cur), pointer;
 }
 
@@ -218,7 +219,7 @@ body a{
 /* INÍCIO CONTATO */
 #contato{
    display: flex;
-   background-color: #a3e8f5;
+   background-color: rgb(228, 219, 219);
 }
 #imagem_contato{
    width: 50%;
