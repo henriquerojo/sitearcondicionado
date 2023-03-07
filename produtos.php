@@ -33,7 +33,7 @@
             Energia Solar
           </div>  
         </div>
-        <div class="linha w100" ng-show="arcondicionado" class="alinhamento_imagens"> <!-- IMAGENS -->
+        <div class="alinhador" ng-show="arcondicionado">
           <?php while ($row = $ar->fetch_assoc()) { ?>
             <a href="produto_detalhes.php?id=<?php echo $row['id']; ?>" role="button">
                 <img src="img/<?php echo $row['imagem']; ?>" alt="imagem de ar condicionado">
@@ -42,7 +42,7 @@
         </div>
 
 
-        <div class="linha w100" ng-show="inverter" class="alinhamento_imagens">
+        <div class="alinhador" ng-show="inverter">
         <?php while ($row = $inverter->fetch_assoc()) { ?>
             <a href="produto_detalhes.php?id=<?php echo $row['id']; ?>" role="button">
                 <img src="img/<?php echo $row['imagem']; ?>" alt="imagem de ar condicionado inverter">
@@ -50,7 +50,7 @@
           <?php } ?>
         </div>
 
-        <div class="linha w100" ng-show="multisplit" class="alinhar">
+        <div class="alinhador" ng-show="multisplit">
         <?php while ($row = $multi->fetch_assoc()) { ?>
             <a href="produto_detalhes.php?id=<?php echo $row['id']; ?>" role="button">
                 <img src="img/<?php echo $row['imagem']; ?>" alt="imagem de ar condicionado multisplit">
@@ -58,7 +58,7 @@
           <?php } ?>
         </div>
 
-        <div class="linha w100" ng-show="energiasolar" class="alinhar">
+        <div class="alinhador" ng-show="energiasolar">
         <?php while ($row = $solar->fetch_assoc()) { ?>
             <a href="produto_detalhes.php?id=<?php echo $row['id']; ?>" role="button">
                 <img src="img/<?php echo $row['imagem']; ?>" alt="imagem de placa solar">

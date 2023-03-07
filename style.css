@@ -163,6 +163,21 @@ body a{
 /* FIM SOBRE */
 
 /* INÍCIO PRODUTOS */
+.alinhador{
+   display: flex;
+}
+
+.alinhador a{
+   display: inline-block;
+   
+}
+
+.alinhador a img{
+   width: 80%;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
 .linha{
    display: flex;
    justify-content: space-around;
@@ -173,20 +188,10 @@ body a{
    margin: 20px auto;
 }
 
-.w75{
-   width: 75%;
-   margin: 20px auto;
-}
-
-.w100{
-   width: 100%;
-   margin: 20px auto;
-}
-
 .borda:hover{
    border-color: black;
    border-style: solid;
-   border-width: 1px;
+   border-width: 3px;
    padding: 5px;
    border-top: none;
    border-left: none;
@@ -208,7 +213,7 @@ body a{
 /* INÍCIO CONTATO */
 #contato{
    display: flex;
-   background-color: #9ebedd;
+   background-color: #fff;
 }
 #imagem_contato{
    width: 50%;
