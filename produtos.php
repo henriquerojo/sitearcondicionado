@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 <h1 class="alinhar">Produtos</h1>
         <div class="alinhar">
           <img src="img/linha.svg" alt="linha decorativa do texto" class="linhad">
@@ -126,4 +134,7 @@
             $scope.energiasolar = true;
           }
         });
-        </script>
+        </script>  
+</body>
+</html>
+
