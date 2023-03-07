@@ -45,8 +45,8 @@ insert tbprodutos values (13,'Multisplit 10.000 BTU','Multisplit com capacidade 
 insert tbprodutos values (14,'Multisplit 11.000 BTU','Multisplit com capacidade de refrigeração de 11.000 BTU',2600.00,'multisplit4.jpg',3);
 insert tbprodutos values (15,'Multisplit 12.000 BTU','Multisplit com capacidade de refrigeração de 12.000 BTU',3100.00,'multisplit5.jpg',3);
 
-insert tbprodutos values (16,'Placa solar 300W','Placar solar com potência de 300W',700.00,'',4);
-insert tbprodutos values (17,'Placa solar 400W','Placar solar com potência de 400W',800.00,'',4);
-insert tbprodutos values (18,'Placa solar 500W','Placar solar com potência de 500W',900.00,'',4);
-insert tbprodutos values (19,'Placa solar 600W','Placar solar com potência de 600W',979.99,'',4);
-insert tbprodutos values (20,'Placa solar 700W','Placar solar com potência de 700W',1050.00,'',4);
+insert tbprodutos values (16,'Placa solar 300W','Placar solar com potência de 300W',700.00,'solar.webp',4);
+insert tbprodutos values (17,'Placa solar 400W','Placar solar com potência de 400W',800.00,'solar.webp',4);
+insert tbprodutos values (18,'Placa solar 500W','Placar solar com potência de 500W',900.00,'solar.webp',4);
+insert tbprodutos values (19,'Placa solar 600W','Placar solar com potência de 600W',979.99,'solar.webp',4);
+insert tbprodutos values (20,'Placa solar 700W','Placar solar com potência de 700W',1050.00,'solar.webp',4);
