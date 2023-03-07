@@ -1,3 +1,11 @@
+<?php 
+  include 'conn/connect.php';
+  $ar = $conn->query("SELECT * FROM tbprodutos WHERE id_tipo = 1 ORDER BY id;");
+  $inverter = $conn->query("SELECT * FROM tbprodutos WHERE id_tipo = 2 ORDER BY id;");
+  $multi = $conn->query("SELECT * FROM tbprodutos WHERE id_tipo = 3 ORDER BY id;");
+  $solar = $conn->query("SELECT * FROM tbprodutos WHERE id_tipo = 4 ORDER BY id;");
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -26,76 +34,36 @@
           </div>  
         </div>
         <div class="linha w100" ng-show="arcondicionado" class="alinhamento_imagens"> <!-- IMAGENS -->
-          <div>
-            <a href="produto_detalhes.php"><img src="img/ar1.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/ar2.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/ar3.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/ar4.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/ar5.jpg" alt="imagem de ar-condicionado" class="tamanho_imagem"></a>
-          </div>
+          <?php while ($row = $ar->fetch_assoc()) { ?>
+            <a href="produto_detalhes.php?id=<?php echo $row['id']; ?>" role="button">
+                <img src="img/<?php echo $row['imagem']; ?>" alt="imagem de ar condicionado">
+            </a>
+          <?php } ?>
         </div>
 
 
         <div class="linha w100" ng-show="inverter" class="alinhamento_imagens">
-          <div>
-            <a href="produto_detalhes.php"><img src="img/inverter1.jpg" alt="ar-condicionado inverter" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/inverter2.jpg" alt="ar-condicionado inverter" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/inverter3.jpg" alt="ar-condicionado inverter" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/inverter4.jpg" alt="ar-condicionado inverter" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/inverter5.jpg" alt="ar-condicionado inverter" class="tamanho_imagem"></a>
-          </div>
+        <?php while ($row = $inverter->fetch_assoc()) { ?>
+            <a href="produto_detalhes.php?id=<?php echo $row['id']; ?>" role="button">
+                <img src="img/<?php echo $row['imagem']; ?>" alt="imagem de ar condicionado inverter">
+            </a>
+          <?php } ?>
         </div>
 
         <div class="linha w100" ng-show="multisplit" class="alinhar">
-          <div>
-            <a href="produto_detalhes.php"><img src="img/multisplit1.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/multisplit2.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/multisplit3.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/multisplit4.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/multisplit5.jpg" alt="ar-condicionado multisplit" class="tamanho_imagem"></a>
-          </div>
+        <?php while ($row = $multi->fetch_assoc()) { ?>
+            <a href="produto_detalhes.php?id=<?php echo $row['id']; ?>" role="button">
+                <img src="img/<?php echo $row['imagem']; ?>" alt="imagem de ar condicionado multisplit">
+            </a>
+          <?php } ?>
         </div>
 
         <div class="linha w100" ng-show="energiasolar" class="alinhar">
-          <div>
-            <a href="produto_detalhes.php"><img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem"></a>
-          </div>
-          <div>
-            <a href="produto_detalhes.php"><img src="img/solar.webp" alt="imagem de painel solar" class="tamanho_imagem"></a>
-          </div>
+        <?php while ($row = $solar->fetch_assoc()) { ?>
+            <a href="produto_detalhes.php?id=<?php echo $row['id']; ?>" role="button">
+                <img src="img/<?php echo $row['imagem']; ?>" alt="imagem de placa solar">
+            </a>
+          <?php } ?>
         </div>
 
         <script>
