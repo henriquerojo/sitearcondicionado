@@ -13,18 +13,28 @@
     <article>
       <p>Contato</p>
       <img src="img/linha.svg" alt="linha decorativa do texto" class="linhadcontato">
-      <div>
-        <h1>ENDEREÇO</h1>
+      <div class="ml mt" id="forma_contato">
+        <div>
+          <h1>Avenida Itaquera, 8266 - São Paulo - SP</h1>
+        </div>
+        <div>
+          <h1>
+            Celular: +55 11 9 9999-9999
+            <br>
+            E-mail:ar@gmail.com
+          </h1>
+        </div>
       </div>
-      <div id="formulario">
-      <form action="submit">
-          <input type="text" ng-model="nome" placeholder="Digite seu Nome" class="borda">
-          <input type="text" ng-model="email" placeholder="Digite seu E-mail" class="borda">
-      </form>
-      <form>
-          <textarea name="mensagem" id="mensagem" rows="1" placeholder="Mensagem"></textarea>
-      </form>
-      <input type="button" action="submit" value="Enviar"> 
+      
+      <div id="formulario" class="ml mt">
+        <form action="submit">
+            <input type="text" ng-model="nome" placeholder="Digite seu Nome" class="borda">
+            <input type="text" ng-model="email" placeholder="Digite seu E-mail" class="borda">
+        </form>
+        <form>
+            <textarea name="mensagem" id="mensagem" rows="8" cols="51" placeholder="Mensagem" class="mt"></textarea>
+        </form>
+        <input type="button" action="submit" value="Enviar"> 
     </div>
     </article>
     

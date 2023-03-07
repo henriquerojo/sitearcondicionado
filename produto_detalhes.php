@@ -17,8 +17,11 @@ $num_linhas = $lista->num_rows;
 <body>
     <!-- INCLUSÃO MENU PÚBLICO -->
     <?php include 'cabecalho.php'?>
+    <div id="">
+        <img src="img/<?php echo $row['imagem']; ?>" alt="imagem de ar condicionado">
+    </div>
 
-    <img src="img/<?php echo $row['imagem']; ?>" alt="imagem de ar condicionado">
+    
 
     <!-- INCLUSÃO CONTATO -->
     <?php include 'rodape.php'?>

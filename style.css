@@ -244,5 +244,23 @@ body a{
    border-top: none;
    border-left: none;
    border-right: none;
+   outline: none;
+   margin-right: 10px;
+   padding: 10px;
+}
+.mt{
+   margin-top: 10px;
+}
+
+.ml{
+   margin-left: 20px;
+}
+
+#forma_contato{
+   display: flex;
+}
+#forma_contato div{
+   display: inline;
+   margin-right: 30px;
 }
 /* FIM CONTATO */
