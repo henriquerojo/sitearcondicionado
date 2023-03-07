@@ -82,7 +82,7 @@ body a{
 /* INÍCIO ÁREA MISSÃO */
 
 .fundo_amarelo{
-   background-color: yellow;
+   background-color: #a3e8f5;
    margin-top: 1%;
 }
 
@@ -151,7 +151,7 @@ body a{
 }
 
 .fundocinza{
-   background-color: rgb(223, 198, 198);
+   background-color: #a3e8f5;
    padding-bottom: 50px;
 }
 
@@ -218,7 +218,7 @@ body a{
 /* INÍCIO CONTATO */
 #contato{
    display: flex;
-   background-color: #fff;
+   background-color: #a3e8f5;
 }
 #imagem_contato{
    width: 50%;
