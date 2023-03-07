@@ -33,11 +33,11 @@ insert tbprodutos values (3,'Ar Condicionado 10.000 BTU','Ar Condicionado com ca
 insert tbprodutos values (4,'Ar Condicionado 11.000 BTU','Ar Condicionado com capacidade de refrigeração de 11.000 BTU',2500.00,'ar4.jpg',1);
 insert tbprodutos values (5,'Ar Condicionado 12.000 BTU','Ar Condicionado com capacidade de refrigeração de 12.000 BTU',3000.00,'ar5.jpg',1);
 
-insert tbprodutos values (6,'Inverter 8.000 BTU','Inverter com capacidade de refrigeração de 8.000 BTU',1200.00,'',2);
-insert tbprodutos values (7,'Inverter 9.000 BTU','Inverter com capacidade de refrigeração de 9.000 BTU',1700.00,'',2);
-insert tbprodutos values (8,'Inverter 10.000 BTU','Inverter com capacidade de refrigeração de 10.000 BTU',2200.00,'',2);
-insert tbprodutos values (9,'Inverter 11.000 BTU','Inverter com capacidade de refrigeração de 11.000 BTU',2700.00,'',2);
-insert tbprodutos values (10,'Inverter 12.000 BTU','Inverter com capacidade de refrigeração de 12.000 BTU',3200.00,'',2);
+insert tbprodutos values (6,'Inverter 8.000 BTU','Inverter com capacidade de refrigeração de 8.000 BTU',1200.00,'inverter1.jpg',2);
+insert tbprodutos values (7,'Inverter 9.000 BTU','Inverter com capacidade de refrigeração de 9.000 BTU',1700.00,'inverter2.jpg',2);
+insert tbprodutos values (8,'Inverter 10.000 BTU','Inverter com capacidade de refrigeração de 10.000 BTU',2200.00,'inverter3.jpg',2);
+insert tbprodutos values (9,'Inverter 11.000 BTU','Inverter com capacidade de refrigeração de 11.000 BTU',2700.00,'inverter4.jpg',2);
+insert tbprodutos values (10,'Inverter 12.000 BTU','Inverter com capacidade de refrigeração de 12.000 BTU',3200.00,'inverter5.jpg',2);
 
 insert tbprodutos values (11,'Multisplit 8.000 BTU','Multisplit com capacidade de refrigeração de 8.000 BTU',1100.00,'',3);
 insert tbprodutos values (12,'Multisplit 9.000 BTU','Multisplit com capacidade de refrigeração de 9.000 BTU',1600.00,'',3);
