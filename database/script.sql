@@ -27,11 +27,11 @@ insert tbtipos values (4, 'energiasolar', 'ens');
 
 select * from tbtipos;
 
-insert tbprodutos values (1,'Ar Condicionado 8.000 BTU','Ar Condicionado com capacidade de refrigeração de 8.000 BTU',1000.00,'',1);
-insert tbprodutos values (2,'Ar Condicionado 9.000 BTU','Ar Condicionado com capacidade de refrigeração de 9.000 BTU',1500.00,'',1);
-insert tbprodutos values (3,'Ar Condicionado 10.000 BTU','Ar Condicionado com capacidade de refrigeração de 10.000 BTU',2000.00,'',1);
-insert tbprodutos values (4,'Ar Condicionado 11.000 BTU','Ar Condicionado com capacidade de refrigeração de 11.000 BTU',2500.00,'',1);
-insert tbprodutos values (5,'Ar Condicionado 12.000 BTU','Ar Condicionado com capacidade de refrigeração de 12.000 BTU',3000.00,'',1);
+insert tbprodutos values (1,'Ar Condicionado 8.000 BTU','Ar Condicionado com capacidade de refrigeração de 8.000 BTU',1000.00,'ar1.jpg',1);
+insert tbprodutos values (2,'Ar Condicionado 9.000 BTU','Ar Condicionado com capacidade de refrigeração de 9.000 BTU',1500.00,'ar2.jpg',1);
+insert tbprodutos values (3,'Ar Condicionado 10.000 BTU','Ar Condicionado com capacidade de refrigeração de 10.000 BTU',2000.00,'ar3.jpg',1);
+insert tbprodutos values (4,'Ar Condicionado 11.000 BTU','Ar Condicionado com capacidade de refrigeração de 11.000 BTU',2500.00,'ar4.jpg',1);
+insert tbprodutos values (5,'Ar Condicionado 12.000 BTU','Ar Condicionado com capacidade de refrigeração de 12.000 BTU',3000.00,'ar5.jpg',1);
 
 insert tbprodutos values (6,'Inverter 8.000 BTU','Inverter com capacidade de refrigeração de 8.000 BTU',1200.00,'',2);
 insert tbprodutos values (7,'Inverter 9.000 BTU','Inverter com capacidade de refrigeração de 9.000 BTU',1700.00,'',2);
