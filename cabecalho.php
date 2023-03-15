@@ -14,7 +14,7 @@
     <li><a href="#home">HOME</a></li>
     <li><a href="#produtos">PRODUTOS</a></li>
     <li><a href="#missao">MISSÃO</a></li>
-    <li><a href="#">LINKS</a></li>
+    <li><a href="#sobre">SOBRE NÓS</a></li>
     <li><a href="#contato">CONTATO</a></li>
   </ul>
   </nav>
