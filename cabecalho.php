@@ -6,18 +6,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav id="menu_horizontal">
-  <ul>
-    <a href="index.php">
-      <img src="img/logo2.png" alt="logo da empresa de ar condicionado" id="logo"><!--  LOGO -->
-    </a>
-    <li><a href="#home">HOME</a></li>
-    <li><a href="#produtos">PRODUTOS</a></li>
-    <li><a href="#missao">MISSÃO</a></li>
-    <li><a href="#sobre">SOBRE NÓS</a></li>
-    <li><a href="#contato">CONTATO</a></li>
-  </ul>
-  </nav>
+  <header id="header">
+    <picture>
+      <a href="index.php">
+        <img src="img/logo2.png" alt="logo da empresa de ar condicionado">
+      </a>
+    </picture>
+    <nav>
+      <div>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#produtos">PRODUTOS</a></li>
+          <li><a href="#missao">MISSÃO</a></li>
+          <li><a href="#sobre">SOBRE NÓS</a></li>
+          <li><a href="#contato">CONTATO</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>  
 </body>
 </html>
 
