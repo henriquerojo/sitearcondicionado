@@ -137,21 +137,30 @@ body a
    width: 100%;
 }
 
-#grid
+.xadrez
 {
-   display: grid;
-   grid-template-columns: auto auto auto auto auto auto;
-   padding: 10px;
-   margin-left: 50px;
-   margin-top: 10px;
+   display: flex; 
+   width: 100%;
 }
-#grid div img
+
+.xadrez div picture
+{
+   display: inline-block;
+}
+
+.xadrez div div
+{
+   display: inline-block;
+}
+
+.xadrez div picture img
 {
    width: 200px;
 }
 
-#grid div p
+.xadrez div div p
 {
+   width: 200px;
    text-align: center;
    font-size: 15px;
 }

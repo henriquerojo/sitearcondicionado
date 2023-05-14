@@ -16,43 +16,52 @@
       </div>
     </article>
     
-    <div id="grid">
+    <div class="xadrez">
       <div>
-        <img src="img/serviços/InstalandoPainelSolar.jpg" alt="instalando painel solar">
+        <div style="display:flex;">
+          <picture>
+            <img src="img/serviços/InstalandoPainelSolar.jpg" alt="instalando painel solar">
+          </picture>
+          <div>
+            <p>Instalação de painel solar</p>
+          </div>
+          <picture>
+            <img src="img/serviços/InstalandoArCond.jpg" alt="instalando ar condicionado">
+          </picture>
+          <div>
+            <p>Instalação de ar condicionado</p>
+          </div>
+          <picture>
+            <img src="img/serviços/InstalandoPainelSolar.jpg" alt="instalando painel solar">
+          </picture>
+          <div>
+            <p>Instalação de painel solar</p>
+          </div>
+        </div>
       </div>
+
       <div>
-        <p>Instalação de painel solar</p>
-      </div>
-      <div>
-        <img src="img/serviços/InstalandoArCond.jpg" alt="instalando ar condicionado">
-      </div>
-      <div>
-        <p>Instalação de ar condicionado</p>
-      </div>
-      <div>
-        <img src="img/serviços/InstalandoPainelSolar.jpg" alt="instalando painel solar">
-      </div>
-      <div>
-        <p>Instalação de painel solar</p>
-      </div>
-      <div>
-        <p>Instalação de ar condicionado</p>
-      </div>
-      <div>
-        <img src="img/serviços/InstalandoArCond.jpg" alt="instalando ar condicionado">
-      </div>
-      <div>
-        <p>Instalação de painel solar</p>
-      </div>
-      <div>
-        <img src="img/serviços/InstalandoPainelSolar.jpg" alt="instalando painel solar">
-      </div>
-      <div>
-        <p>Instalação de ar condicionado</p>
-      </div>
-      <div>
-        <img src="img/serviços/InstalandoArCond.jpg" alt="instalando ar condicionado">
-      </div>
+        <div style="display:flex;">
+          <div>
+            <p>Instalação de ar condicionado</p>
+          </div>
+          <picture>
+            <img src="img/serviços/InstalandoArCond.jpg" alt="instalando ar condicionado">
+          </picture>
+          <div>
+            <p>Instalação de painel solar</p>
+          </div>
+          <picture>
+            <img src="img/serviços/InstalandoPainelSolar.jpg" alt="instalando painel solar">
+          </picture>
+          <div>
+            <p>Instalação de ar condicionado</p>
+          </div>
+          <picture>
+            <img src="img/serviços/InstalandoArCond.jpg" alt="instalando ar condicionado">
+          </picture>
+          </div>
+        </div>
     </div>
   </section>
 </body>
