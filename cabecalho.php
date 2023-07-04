@@ -8,8 +8,8 @@
 <body>
   <header id="header">
     <picture>
-      <a href="index.php">
-        <img src="img/logo2.png" alt="logo da empresa de ar condicionado">
+      <a href="index.php" style="text-decoration: none; color: black; font-size: 30pt;">
+        <div style="width: 160px; height: 95px; border: 1px solid black; display: flex; justify-content:center;align-items:center;">Logo</div>
       </a>
     </picture>
     <nav>

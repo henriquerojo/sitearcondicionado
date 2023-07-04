@@ -12,7 +12,7 @@
     <article>
       <h1 id="texto_serv">Serviços</h1>
       <div id="linha_serv" class="alinhar">
-        <img src="img/linha.svg" alt="linha decorativa do texto" class="linhad">
+        <img src="img/linha.svg" alt="linha decorativa do texto" style="width: 200px;">
       </div>
     </article>
     <div style="display: flex; justify-content:center; margin-top: 40px;">

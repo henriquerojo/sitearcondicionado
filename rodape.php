@@ -15,22 +15,10 @@
       <img src="img/linha.svg" alt="linha decorativa do texto" class="linhadcontato">
       <div class="ml mt" id="forma_contato">
         <div>
-          <h4>
-            Endereço:
-            <br>
-            <br>
-            Avenida Itaquera, 8266 - São Paulo - SP
-          </h4>
+          <h4>Endereço</h4>
         </div>
         <div>
-          <h4>
-            Contato:
-            <br>
-            <br>
-            Celular: +55 11 9 9999-9999
-            <br>
-            E-mail:ar@gmail.com
-          </h4>
+          <h4>Contato</h4>
         </div>
       </div>
       
