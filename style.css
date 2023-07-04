@@ -24,6 +24,7 @@ body
 {
    cursor: url(img/cursorum.cur), default;
    background-color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 body a
@@ -139,16 +140,25 @@ body a
 
 .xadrez
 {
-   display: flex; 
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);;
+   grid-template-rows: 2;
+   width: 70%;
+}
+
+.xadrez picture img
+{
    width: 100%;
 }
 
-.xadrez div picture
+.xadrez div
 {
-   display: inline-block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-.xadrez div div
+/* .xadrez div div
 {
    display: inline-block;
 }
@@ -163,7 +173,7 @@ body a
    width: 200px;
    text-align: center;
    font-size: 15px;
-}
+} */
 /* FIM SERVIÇOS */
 
 /* INÍCIO SOBRE */
