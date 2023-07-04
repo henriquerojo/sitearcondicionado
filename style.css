@@ -143,12 +143,15 @@ body a
    display: grid;
    grid-template-columns: repeat(6, 1fr);;
    grid-template-rows: 2;
+   row-gap: 0;
+   column-gap: 0;
    width: 70%;
 }
 
 .xadrez picture img
 {
    width: 100%;
+   height: 100%;
 }
 
 .xadrez div
