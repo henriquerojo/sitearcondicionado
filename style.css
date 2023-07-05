@@ -37,8 +37,12 @@ body a
 /* INÍCIO MENU */
 #header
 {
+   background-color: #e9edf0;
    display: flex;
-   padding: 10px;
+   padding-right: 10px;
+   padding-left: 10px;
+   padding-top: 3px;
+   padding-bottom: 10px;
 }
 
 #header picture
@@ -99,8 +103,11 @@ body a
 #area_inicial
 {
    display: flex;
-   padding: 10px;
-   margin-top: 1%;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 95px;
+   padding-top: 95px;
+   background-color: #e9edf0;
 }
 
 #area_inicial div
@@ -148,8 +155,7 @@ body a
 
 .fundo_amarelo
 {
-   background-color: rgb(235, 235, 2);
-   margin-top: 1%;
+   background-color: #ffcb01;
    margin-bottom: 1%;
    padding-top: 2.5%;
    padding-bottom: 5%;
@@ -259,7 +265,7 @@ body a
 
 .fundocinza
 {
-   background-color: rgb(228, 219, 219);
+   background-color: #efefef;
    padding-bottom: 50px;
 }
 
@@ -333,7 +339,7 @@ body a
 #contato
 {
    display: flex;
-   background-color: rgb(228, 219, 219);
+   background-color: #eeeff3;
 }
 #imagem_contato
 {
