@@ -292,14 +292,12 @@ body a
 .alinhador a
 {
    display: inline-block;
-   
+   text-align: center;
 }
 
 .alinhador a img
 {
-   width: 80%;
-   padding-left: 10%;
-   padding-right: 10%;
+   width: 70%;
 }
 
 .linha
