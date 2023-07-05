@@ -47,6 +47,23 @@ body a
    width:50%;
 }
 
+#header picture a
+{
+   text-decoration: none; 
+   color: black; 
+   font-size: 30pt;
+}
+
+#header picture a div
+{
+   width: 160px; 
+   height: 95px; 
+   border: 1px solid black; 
+   display: flex; 
+   justify-content:center;
+   align-items:center;
+}
+
 #header nav
 {
    display:inline-block; 
@@ -56,15 +73,13 @@ body a
 #header nav div
 {
    display:flex; 
-   justify-content:left; 
-   text-align:center; 
    align-items:center; 
    height:100%;
 }
 
 #header nav div ul li
 {
-   display:inline-block
+   display:inline-block;
 }
 
 #header nav div ul li a

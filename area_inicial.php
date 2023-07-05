@@ -7,7 +7,7 @@
 </head>
 <body>
     <section id="area_inicial">
-        <div>
+        <div class="img-inicial">
             <img src="img/energia_solar.png" alt="imagem de ar condicionado" id="imagem_ar">
         </div>
         <div class="txt-inicial">

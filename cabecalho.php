@@ -8,8 +8,8 @@
 <body>
   <header id="header">
     <picture>
-      <a href="index.php" style="text-decoration: none; color: black; font-size: 30pt;">
-        <div style="width: 160px; height: 95px; border: 1px solid black; display: flex; justify-content:center;align-items:center;">Logo</div>
+      <a href="index.php">
+        <div>Logo</div>
       </a>
     </picture>
     <nav>
