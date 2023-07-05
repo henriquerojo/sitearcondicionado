@@ -14,9 +14,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1 class="alinhar">Produtos</h1>
+  <div style="padding-top: 50px;">
+    <h1 class="alinhar">Produtos</h1>
+  </div>
   <div class="alinhar">
-    <img src="img/linha.svg" alt="linha decorativa do texto" class="linhad">
+    <img src="img/linha.svg" alt="linha decorativa do texto" style="width: 200px;">
   </div>
 
   <div class="linha w50"> <!-- BOTÕES -->

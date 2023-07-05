@@ -221,7 +221,7 @@ body a
 #sobre
 {
    padding-top: 100px;
-   padding-bottom: 100px;
+   /* padding-bottom: 50px; */
    display: flex;
    width: 100%;
 }
@@ -279,7 +279,7 @@ body a
 .fundocinza
 {
    background-color: #efefef;
-   padding-bottom: 50px;
+   padding-bottom: 100px;
 }
 /* FIM SOBRE */
 
