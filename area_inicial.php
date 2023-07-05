@@ -10,10 +10,10 @@
         <div class="img-inicial">
             <img src="img/energia_solar.png" alt="imagem de ar condicionado" id="imagem_ar">
         </div>
-        <div class="txt-inicial">
-            <div>
+        <div>
+            <div id="txt-inicial">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <img src="img/linha.svg" alt="linha decorativa do texto" style="width: 150px;">
+                <img src="img/linha.svg" alt="linha decorativa do texto">
             </div>
         </div>
     </section>

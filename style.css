@@ -99,25 +99,40 @@ body a
 #area_inicial
 {
    display: flex;
+   padding: 10px;
    margin-top: 1%;
 }
 
 #area_inicial div
 {
    width: 50%;
-   display: inline-block;
-}
-
-.txt-inicial
-{
    display: flex;
-   text-align: center;
+   align-items: center;
 }
 
 #imagem_ar
 {
    width: 100%;
    height: 100%;
+}
+
+#txt-inicial 
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center;
+   margin-left: 80px;
+}
+
+#txt-inicial p
+{
+   max-width:  200px;
+}
+
+#txt-inicial img
+{
+   width: 150px;
 }
 
 /* FIM ÁREA INICIAL */
