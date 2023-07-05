@@ -139,6 +139,13 @@ body a
 
 /* INÍCIO ÁREA MISSÃO */
 
+.alinha-missao
+{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+
 .fundo_amarelo
 {
    background-color: rgb(235, 235, 2);
@@ -148,9 +155,14 @@ body a
    padding-bottom: 5%;
 }
 
+.fundo_amarelo div
+{
+   text-align: center;
+}
+
 .medalha
 {
-   width: 20%;
+   width: 100px;
 }
 
 /* FIM ÁREA MISSÃO */
