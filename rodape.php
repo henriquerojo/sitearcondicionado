@@ -11,9 +11,11 @@
       <img src="img/ar_condicionado.png" alt="imagem ar condicionado" class="imagem_contato">
     </div>
     <article>
-      <p>Contato</p>
-      <img src="img/linha.svg" alt="linha decorativa do texto" class="linhadcontato">
-      <div class="ml mt" id="forma_contato">
+      <div id="titulo-contato">
+        <p>Contato</p>
+        <img src="img/linha.svg" alt="linha decorativa do texto" class="linhadcontato">
+      </div>
+      <div id="forma_contato">
         <div>
           <h4>Endereço</h4>
         </div>
@@ -25,15 +27,16 @@
       <div id="formulario" class="ml mt">
         <form action="submit">
             <input type="text" ng-model="nome" placeholder="Digite seu Nome" class="borda_c">
-            <input type="text" ng-model="email" placeholder="Digite seu E-mail" class="borda_c">
+            <input type="email" ng-model="email" placeholder="Digite seu E-mail" class="borda_c">
         </form>
         <form>
             <textarea name="mensagem" id="mensagem" rows="1" cols="49" placeholder="Mensagem" class="mt borda_c"></textarea>
         </form>
-        <input type="button" action="submit" value="Enviar" id="button"> 
+        <div id="btn-contato">
+          <input type="button" action="submit" value="Enviar" id="button"> 
+        </div>
     </div>
     </article>
-    
   </section>
     
 </body>

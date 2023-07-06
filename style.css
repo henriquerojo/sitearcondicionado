@@ -344,6 +344,8 @@ body a
 {
    display: flex;
    background-color: #eeeff3;
+   padding-top: 15px;
+   margin-top: 15px;
 }
 #imagem_contato
 {
@@ -354,21 +356,23 @@ body a
 {
    width: 100%;
 }
+#titulo-contato
+{
+   width: 50%;
+   text-align: center;
+}
+#titulo-contato p
+{
+   font-size: 20pt;
+}
 #contato article
 {
    width: 50%;
    display: inline-block;
 }
-#contato article p
-{
-   font-size: 30px;
-   font-style:inherit;
-   margin-left: 30%;
-}
 .linhadcontato
 {
-   width: 40%;
-   margin-left: 18%;
+   width: 150px;
 }
 
 .borda_c
@@ -379,6 +383,8 @@ body a
    outline: none;
    margin-right: 10px;
    padding: 10px;
+   background-color: transparent;
+   border-bottom: 1px solid black;
 }
 .mt
 {
@@ -393,15 +399,30 @@ body a
 #forma_contato
 {
    display: flex;
+   width: 50%;
+   justify-content: space-between;
+   margin-left: 20px;
+   margin-top: 20px;
 }
 #forma_contato div
 {
    display: inline;
    margin-right: 30px;
 }
+#formulario form textarea
+{
+   resize: none;
+   width: 388px;
+}
+#btn-contato
+{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+}
 #button
 {
-   margin-left: 19%;
+   
    margin-top: 20px;
    padding: 10px;
    background-color: transparent;
